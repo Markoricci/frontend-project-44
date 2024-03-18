@@ -12,3 +12,21 @@ lint:
 
 lint-fix:
 	npx eslint . --fix
+
+brain-even:
+	node bin/brain-even.js
+
+link:
+	npm link
+
+brain-calc:
+	node bin/brain-calc.js
+
+brain-gcd:
+	node bin/brain-gcd.js
+
+brain-progression:
+	node bin/brain-progression.js
+
+brain-prime:
+	node bin/brain-prime.js
