@@ -8,7 +8,10 @@ const gameGood = (description, taskFunc) => {
   let mark = 0;
   for (let i = 1; i <= 3; i += 1) {
     const Mark1 = taskFunc();
+
+    console.log(`Question: ${Mark1[0]}`);
     const answer = readlineSync.question('Answer: ');
+
     if (answer === Mark1[1]) {
       console.log('Correct!');
       mark += 1;
