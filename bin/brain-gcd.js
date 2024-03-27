@@ -8,6 +8,7 @@ const task = () => {
   const num2 = Math.round(Math.random() * 50);
 
   let a = num1;
+
   let b = num2;
   while (a !== 0 && b !== 0) {
     if (a >= b) {
